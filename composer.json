@@ -1,0 +1,29 @@
+{
+    "name": "byancode/eloquent-raw-sql",
+    "description": "Print raw sql from eloquent.",
+    "keywords": ["laravel", "raw", "sql", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Byancode",
+            "email": "byancode@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=6.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Byancode\\EloquentRawSql\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Byancode\\EloquentRawSql\\Provider"
+            ]
+        }
+    }
+}
