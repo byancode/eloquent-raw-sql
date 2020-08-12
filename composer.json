@@ -1,5 +1,6 @@
 {
     "name": "byancode/eloquent-raw-sql",
+    "version": "1.0",
     "description": "Print raw sql from eloquent.",
     "keywords": ["laravel", "raw", "sql", "eloquent"],
     "license": "MIT",
