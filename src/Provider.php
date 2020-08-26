@@ -1,10 +1,10 @@
 <?php
 
-namespace Byancode\EloquentRawSql;;
+namespace Byancode\EloquentRawSql;
 
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class Provider extends ServiceProvider
 {
     public function register()
     {
